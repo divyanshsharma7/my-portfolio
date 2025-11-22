@@ -62,30 +62,34 @@ function sendMessage(event){
 //     document.getElementById("status-msg").style.color = "red";
 //   });
 // });
+  
+
+// Attempt 2
 
 
-(function() {
-  emailjs.init("pj3y0wiF_Oj2O7tdo"); 
-})();
 
-document.getElementById("contact-form").addEventListener("submit", function(e) {
-  e.preventDefault();
+// (function() {
+//   emailjs.init("pj3y0wiF_Oj2O7tdo"); 
+// })();
 
-  console.log("Sending...");  // DEBUG 1
+// document.getElementById("contact-form").addEventListener("submit", function(e) {
+//   e.preventDefault();
 
-  emailjs.send("service_clk13jh", "template_nt3xupw", {
-    name: document.getElementById("name").value,
-    email: document.getElementById("email").value,
-    message: document.getElementById("message").value
-  })
-  .then((response) => {
-    console.log("SUCCESS:", response); // DEBUG 2
-    document.getElementById("status-msg").innerText = "Message Sent Successfully ✔";
-    document.getElementById("status-msg").style.color = "lightgreen";
-  })
-  .catch((error) => {
-    console.error("ERROR:", error); // DEBUG 3
-    document.getElementById("status-msg").innerText = "Failed to Send Message ❌";
-    document.getElementById("status-msg").style.color = "red";
-  });
-});
+//   console.log("Sending...");  // DEBUG 1
+
+//   emailjs.send("service_clk13jh", "template_nt3xupw", {
+//     name: document.getElementById("name").value,
+//     email: document.getElementById("email").value,
+//     message: document.getElementById("message").value
+//   })
+//   .then((response) => {
+//     console.log("SUCCESS:", response); // DEBUG 2
+//     document.getElementById("status-msg").innerText = "Message Sent Successfully ✔";
+//     document.getElementById("status-msg").style.color = "lightgreen";
+//   })
+//   .catch((error) => {
+//     console.error("ERROR:", error); // DEBUG 3
+//     document.getElementById("status-msg").innerText = "Failed to Send Message ❌";
+//     document.getElementById("status-msg").style.color = "red";
+//   });
+// });
