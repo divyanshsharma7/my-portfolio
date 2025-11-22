@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Divyansh Sharma — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-shapes">
+    <div class="shape s1"></div>
+    <div class="shape s2"></div>
+  </div>
+
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">DS</div>
+        <div>
+          <div class="brand-title">Divyansh Sharma</div>
+          <div class="brand-sub">BCA | Frontend Developer • AI/ML • Content Writer</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="intro">
+          <h1>Hi, I'm <span class="highlight">Divyansh</span> 👋</h1>
+          <div class="subtitle">I build modern frontends, explore AI/ML and write SEO-friendly content.</div>
+          <div class="typing-box">I'm <span id="typed" class="typing"></span></div>
+
+          <div class="cta">
+            <button class="btn primary" onclick="scrollToSection('projects')">See Projects</button>
+            <a href="resume.pdf" download><button class="btn ghost">Download Resume</button></a>
+          </div>
+        </div>
+
+        <aside class="profile-card">
+          <div class="avatar">
+            <img src="profile.jpeg" alt="profile" />
+            <div class="avatar-info">
+              <div class="avatar-name">Divyansh Sharma</div>
+              <div class="muted">BCA Student • Frontend Developer</div>
+            </div>
+            <div class="contact-list">
+              <div class="chip">LinkedIn: linkedin.com/in/divyansh-sharma192005</div>
+              <div class="chip">GitHub: github.com/divyanshsharma7</div>
+              <div class="chip">Blog: need4pc.in</div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="about" class="section-block">
+        <h2>About Me</h2>
+        <p class="muted">Hello! I'm Divyansh, currently pursuing BCA and passionate about web development, AI/ML, and content writing. My goal is to develop meaningful digital experiences using clean, modern UI design and efficient backend logic.</p>
+      </section>
+
+      <section id="education" class="section-block">
+        <h2>Education</h2>
+        <div class="timeline-block">
+          <div class="timeline-item">
+            <h3>BCA — MM(DU), Mullana</h3>
+            <p class="muted">2023 – Present</p>
+            <p>CGPA: 9.3 (Till Date)</p>
+          </div>
+          <div class="timeline-item">
+            <h3>12th CBSE (Non-Medical)</h3>
+            <p class="muted">Kendriya Vidyalaya No.3, Ambala Cantt — 2022–23</p>
+            <p>Percentage: 81%</p>
+          </div>
+          <div class="timeline-item">
+            <h3>10th CBSE</h3>
+            <p class="muted">Kendriya Vidyalaya No.3, Ambala Cantt — 2020–21</p>
+            <p>Percentage: 87%</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section-block experience-section">
+  <h2>Experience</h2>
+
+  <div class="experience-wrapper">
+
+    <!-- LEFT SIDE – EXPERIENCE CARDS -->
+    <div class="experience-left">
+
+      <div class="exp-card">
+        <h3>Placement Activity Committee — MM(DU)</h3>
+        <p class="exp-date">Sep 2024 – Present</p>
+        <p>Coordinated campus drives, assisted recruiters, and managed event documentation.</p>
+      </div>
+
+      <div class="exp-card">
+        <h3>E-Cell Event Coordinator — MM(DU)</h3>
+        <p class="exp-date">Oct 2024 – Present</p>
+        <p>Organized entrepreneurship events in collaboration with IIT Bombay.</p>
+      </div>
+
+      <div class="exp-card">
+        <h3>Web Content Writer — need4pc.in</h3>
+        <p class="exp-date">Apr 2024 – Jul 2024</p>
+        <p>Wrote SEO-optimized blogs based on hardware, software and cyber security.</p>
+      </div>
+
+      <div class="exp-card">
+        <h3>Frontend Developer Intern — Alpha Intern</h3>
+        <p class="exp-date">Feb 2024 – Mar 2024</p>
+        <p>Worked on frontend components and UI improvements.</p>
+      </div>
+
+    </div>
+
+    <!-- RIGHT SIDE – IMAGE SPACE -->
+    <div class="experience-right">
+      <img src="Experience.jpeg" alt="Experience Image" class="exp-image">
+      <!-- Replace 'your-image.jpg' with your actual photo -->
+    </div>
+
+  </div>
+</section>
+
+      <section id="projects" class="section-block">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <img src="Education.jpeg" class="project-img" />
+            <h3>Education Recommendation System</h3>
+            <p class="muted">An ML model-based system recommending career paths using user academic & personal data.</p>
+          </div>
+          <div class="project-card">
+            <img src="Teacher_avail.png" class="project-img" />
+            <h3>Teacher Adjustment Portal</h3>
+            <p class="muted">Automated faculty scheduling platform using Flask and MySQL integration.</p>
+          </div>
+          <div class="project-card">
+            <img src="Myntra.png" class="project-img" />
+            <h3>Myntra Clone</h3>
+            <p class="muted">A complete UI clone of Myntra built using HTML, CSS, JavaScript.</p>
+          </div>
+        </div>
+      </section>
+
+    <section id="achievements" class="section-block">
+  <h2>Achievements & Certificates</h2>
+
+  <div class="projects-grid">
+    
+    <div class="project-card">
+      <img src="National Entrepreneurship Challenge NEC .png" class="project-img" alt="Certificate 1">
+      <h3>NEC – National Entrepreneurship Challenge</h3>
+      <p class="muted">Successfully completed NEC event conducted by IIT Bombay.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="Infosys Springboard - Python .png" class="project-img" alt="Certificate 2">
+      <h3>Infosys Springboard</h3>
+      <p class="muted">Completed multiple courses including Web Development & Python.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="Declamation Competition .png" class="project-img" alt="Certificate 3">
+      <h3>Declamation Competition</h3>
+      <p class="muted">Participated and presented in university-level competition.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="Tech_trivia 1st prize .png" class="project-img" alt="Certificate 4">
+      <h3>Tech Trivia – Technophilia 2025</h3>
+      <p class="muted">Participated in campus tech quiz challenge.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="Need4pc.png" class="project-img" alt="Certificate 5">
+      <h3>Web Content Writer</h3>
+      <p class="muted">Writing SEO SEO-friendly Web Content</p>
+    </div>
+
+  </div>
+</section>
+
+
+      <section id="skills" class="section-block">
+        <h2><center>Skills</center></h2><br>
+        <div class="skills-grid">
+          <div class="skill-pill">Python</div>
+          <div class="skill-pill">HTML / CSS / JavaScript</div>
+          <div class="skill-pill">C & C++</div>
+          <div class="skill-pill">AI / ML</div>
+          <div class="skill-pill">Frontend Development</div>
+          <div class="skill-pill">SEO Content Writing</div>
+          <div class="skill-pill">Video Editing</div>
+          <div class="skill-pill">Graphic Design</div>
+        </div>
+
+         <!-- Soft Skills -->
+  <h3 class="skill-category-title"><center>Soft Skills</center></h3> <br>
+  <div class="skills-grid">
+    <div class="skill-pill"><i class="fa-solid fa-users"></i> Leadership</div>
+    <div class="skill-pill"><i class="fa-solid fa-clock"></i> Time Management</div>
+    <div class="skill-pill"><i class="fa-solid fa-handshake"></i> Team Collaboration</div>
+    <div class="skill-pill"><i class="fa-solid fa-comments"></i> Communication</div>
+    <div class="skill-pill"><i class="fa-solid fa-microphone"></i> Public Speaking</div>
+    <div class="skill-pill"><i class="fa-solid fa-lightbulb"></i> Problem Solving</div>
+  </div>
+      </section>
+<section id="contact" class="section-block contact-section">
+  <h2>Contact Me</h2>
+
+  <div class="contact-wrapper">
+
+    <!-- LEFT SIDE FORM -->
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+
+      <!-- REQUIRED: Your Web3Forms Access Key -->
+      <input type="hidden" name="access_key" value="a7f0bfad-b341-4e22-b24c-4af1fdaf3507">
+
+      <!-- Optional subject -->
+      <input type="hidden" name="subject" value="New Contact Message from Portfolio">
+
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+
+      <button class="btn primary" type="submit">Send Message</button>
+
+      <p id="status-msg"></p>
+
+    </form>
+
+    <!-- RIGHT SIDE IMAGE -->
+    <div class="contact-right">
+      <img src="Contact.png" class="contact-img" alt="Contact Image">
+    </div>
+
+  </div>
+</section>
+
+
+<!-- FOOTER WITH SOCIAL ICONS -->
+<footer class="footer">
+  <div class="social-links">
+    <a href="https://wa.me/919350452011" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="https://www.linkedin.com/in/divyansh-sharma192005?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BI71zj%2FDHS0aidkTlc%2Bu%2B8A%3D%3D" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com/divyanshsharma7" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <!-- <a href="mailto:divyanshsharma01092005@gmail.com"><i class="fa-solid fa-envelope"></i></a> -->
+     <a href="mailto:divyanshsharma01092005@gmail.com" 
+   target="_blank" 
+   rel="noopener noreferrer">
+   <i class="fa-solid fa-envelope"></i>
+</a>
+
+  </div>
+
+  <p>© 2025 Divyansh Sharma — Thanks For Visit!! ❤️</p>
+</footer>
+
+<!-- FONT AWESOME ICONS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
